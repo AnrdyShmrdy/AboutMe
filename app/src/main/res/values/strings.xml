@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndrewPonce_AboutMe</string>
+    <string name="Name">Andrew Ponce</string>
+    <string name="favCourseHint">enter your favorite course here</string>
+    <string name="favoriteSongHint">enter your favorite song here</string>
 </resources>
