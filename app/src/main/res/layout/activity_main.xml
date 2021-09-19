@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Start Course Activity"
+        android:onClick="sendFavCourse"
         app:layout_constraintStart_toStartOf="@+id/favCourse_editTxt"
         app:layout_constraintTop_toBottomOf="@+id/favCourse_editTxt" />
 
@@ -80,6 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Start Song Activity"
+        android:onClick="sendFavSong"
         app:layout_constraintStart_toStartOf="@+id/favSong_editTxt"
         app:layout_constraintTop_toBottomOf="@+id/favSong_editTxt" />
 

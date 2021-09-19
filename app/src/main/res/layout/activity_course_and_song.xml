@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    tools:context=".course_and_song">
     <TextView
         android:id="@+id/myName_txtViewActivity"
         android:layout_width="wrap_content"
@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/myName_txtViewVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toEndOf="@+id/myName_txtViewActivity" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/favCourseOrSong_txtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -32,19 +32,19 @@
         app:layout_constraintTop_toBottomOf="@+id/myName_txtViewActivity" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/favCourseOrSong_txtViewVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="@+id/textView2" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/favCourseOrSong_txtView"
+        app:layout_constraintStart_toStartOf="@+id/myName_txtViewVal" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/approve_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Approve"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/favCourseOrSong_txtView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

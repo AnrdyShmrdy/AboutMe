@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/andyp/AndroidStudioProjects/AndrewPonce_AboutMe/app/src/main/res/layout/activity_course_and_song.xml" value="0.2609375" />
         <entry key="..\:/Users/andyp/AndroidStudioProjects/AndrewPonce_AboutMe/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
+        <entry key="..\:/Users/andyp/AndroidStudioProjects/AndrewPonce_AboutMe/app/src/main/res/layout/course_and_song_activity_screen.xml" value="0.5" />
       </map>
     </option>
   </component>
