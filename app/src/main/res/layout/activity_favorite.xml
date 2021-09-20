@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".course_and_song">
+    tools:context=".FavoriteActivity">
     <TextView
-        android:id="@+id/myName_txtViewActivity"
+        android:id="@+id/myName_txtView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Name: "
@@ -14,30 +14,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/myName_txtViewVal"
+        android:id="@+id/myName_txtViewVal2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
+        android:layout_marginStart="80dp"
         android:text="@string/Name"
-        app:layout_constraintBaseline_toBaselineOf="@+id/myName_txtViewActivity"
-        app:layout_constraintStart_toEndOf="@+id/myName_txtViewActivity" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/myName_txtView2"
+        app:layout_constraintStart_toEndOf="@+id/myName_txtView2" />
 
     <TextView
-        android:id="@+id/favCourseOrSong_txtView"
+        android:id="@+id/favDesc_txtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
-        android:text="TextView"
+        android:text="My Favorite *******"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myName_txtViewActivity" />
+        app:layout_constraintTop_toBottomOf="@+id/myName_txtView2" />
 
     <TextView
-        android:id="@+id/favCourseOrSong_txtViewVal"
+        android:id="@+id/favName_txtViewVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/favCourseOrSong_txtView"
-        app:layout_constraintStart_toStartOf="@+id/myName_txtViewVal" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/favDesc_txtView"
+        app:layout_constraintStart_toStartOf="@+id/myName_txtViewVal2" />
 
     <Button
         android:id="@+id/approve_btn"
@@ -46,5 +46,5 @@
         android:text="Approve"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favCourseOrSong_txtView" />
+        app:layout_constraintTop_toBottomOf="@+id/favDesc_txtView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

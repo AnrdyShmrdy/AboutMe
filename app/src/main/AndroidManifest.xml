@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndrewPonce_AboutMe">
         <activity
-            android:name=".course_and_song"
+            android:name=".FavoriteActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
